@@ -20,8 +20,6 @@ if(a==0)
 printf("\nThread Execution is completed successfully");
 else
 printf("\nThread Execution is not completed");
-pthread_exit(0);
-printf("\n%ld",t);
 return 0;
 }
 
